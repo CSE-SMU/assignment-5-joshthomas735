@@ -1,9 +1,44 @@
 <ion-view view-title="Playlists">
+	<ion-header-bar>
+		<h1 class="title">myBeer</h1>
+	</ion-header-bar>
+
   <ion-content>
-    <ion-list>
-      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
-      </ion-item>
-    </ion-list>
+  	<h2>Find Your Perfect Beer</h2>
+    <form ng-submit="doLogin()">
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="Beer Name">
+        </label>
+        <label class="item item-input item-select">
+			<div class="input-label">
+			  Food Pairing
+			</div>
+		    <select>
+		      <option>Steak</option>
+		      <option selected>Pasta</option>
+		      <option>BBQ</option>
+		    </select>
+        </label>
+		<div class="item range">
+			<div class="range-label">
+			  ABV
+			</div>
+			<i class="icon ion-ios-minus-outline"></i>
+			<input type="range" name="ABV" min="0" max="15" value="8" ng-model="abvVal">
+			<i class="icon ion-ios-plus-outline"></i>
+			<div>{{abvVal}}</div>
+		</div>
+		<div class="item range">
+			<div class="range-label">
+			  IBU
+			</div>
+			<i class="icon ion-ios-minus-outline"></i>
+			<input type="range" name="ABV" min="0" max="15" value="8" ng-model="ibuVal">
+			<i class="icon ion-ios-plus-outline"></i>
+			<div>{{ibuVal}}</div>
+		</div>
+      </div>
+    </form>
   </ion-content>
 </ion-view>
