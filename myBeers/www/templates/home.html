@@ -1,0 +1,54 @@
+<ion-view view-title="myBeers">
+	<ion-header-bar>
+		<h1 class="title">myBeer</h1>
+	</ion-header-bar>
+ 
+  <ion-content>
+  	<h2 class="padding">Find Your Perfect Beer</h2>
+    <form>
+      <div class="list">
+        <label class="item item-input">
+        	<span class="input-label">Beer Name</span>
+          <input type="text" placeholder="Beer Name" ng-model="form.beerName">
+        </label>
+        <label class="item item-input item-select">
+			<div class="input-label">
+			  Food Pairing
+			</div>
+		    <select ng-model="form.foodPairings">
+		      <option selected ng-value="">None</option>
+		      <option ng-value="steak">Steak</option>
+		      <option ng-value="pasta">Pasta</option>
+		      <option ng-value="bbq">BBQ</option>
+		    </select>
+        </label>
+		<div class="item range">
+			<div class="range-label">
+			  ABV
+			</div>
+			<i class="icon ion-ios-minus-outline"></i>
+			<input type="range" name="ABV" min="0" max="15" value="8" ng-model="form.abvVal">
+			<i class="icon ion-ios-plus-outline"></i>
+			<div>{{form.abvVal}}</div>
+		</div>
+		<div class="item range">
+			<div class="range-label">
+			  IBU
+			</div>
+			<i class="icon ion-ios-minus-outline"></i>
+			<input type="range" name="ABV" min="5" max="30" value="15" ng-model="form.ibuVal">
+			<i class="icon ion-ios-plus-outline"></i>
+			<div>{{form.ibuVal}}</div>
+		</div>
+		<ion-list>
+			<div class="item item-divider padding">Organic?</div>
+			<ion-radio ng-model="form.isOrganic" ng-value="true">Yes</ion-radio>
+			<ion-radio ng-model="form.isOrganic" ng-value="false">No</ion-radio>
+		</ion-list>
+      </div>
+    </form>
+  </ion-content>
+  <div class="bar bar-footer bar-balanced" ng-click="search()">
+		<div class="title">Search</div>
+	</div>
+</ion-view>

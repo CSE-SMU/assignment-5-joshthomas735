@@ -1,0 +1,146 @@
+{
+  "currentPage": 1,
+  "numberOfPages": 1,
+  "totalResults": 3,
+  "data": [
+    {
+      "id": "Knag6G",
+      "name": "Gouden Carolus Easter",
+      "nameDisplay": "Gouden Carolus Easter",
+      "description": "We brew this dark special beer every year for Easter. It contains several types of malt and during the brewing process three different kinds of herbs are added to give it that fine, special taste. Its ruby red colour, high alcohol concentration of 10% VOL and its full and well-balanced taste are a source of vitality and strength. A true delight, even for the most critical connoisseur. For ideal tasting, serve cool at a recommended temperature of 7-8° C and pour out gently in one movement. This pleasant, dark special beer is chosen by all who love a richer, slightly spicier tasting Ale.",
+      "abv": "10",
+      "ibu": "16",
+      "glasswareId": 2,
+      "availableId": 4,
+      "styleId": 64,
+      "isOrganic": "N",
+      "labels": {
+        "icon": "https://s3.amazonaws.com/brewerydbapi/beer/Knag6G/upload_msGg56-icon.png",
+        "medium": "https://s3.amazonaws.com/brewerydbapi/beer/Knag6G/upload_msGg56-medium.png",
+        "large": "https://s3.amazonaws.com/brewerydbapi/beer/Knag6G/upload_msGg56-large.png"
+      },
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "servingTemperature": "cool",
+      "servingTemperatureDisplay": "Cool - (8-12C/45-54F)",
+      "createDate": "2012-01-03 02:43:18",
+      "updateDate": "2015-12-16 12:18:39",
+      "glass": {
+        "id": 2,
+        "name": "Goblet",
+        "createDate": "2012-01-03 02:41:33"
+      },
+      "available": {
+        "id": 4,
+        "name": "Seasonal",
+        "description": "Available at the same time of year, every year."
+      },
+      "style": {
+        "id": 64,
+        "categoryId": 5,
+        "category": {
+          "id": 5,
+          "name": "Belgian And French Origin Ales",
+          "createDate": "2012-03-21 20:06:46"
+        },
+        "name": "Belgian-Style Dark Strong Ale",
+        "shortName": "Belgian Dark Strong",
+        "description": "Belgian dark strong ales are amber to dark brown in color. Often, though not always, brewed with dark Belgian \"candy\" sugar, these beers can be well attenuated, ranging from medium to full-bodied. The perception of hop bitterness is low to medium, with hop flavor and aroma also in this range. Fruity complexity along with the soft flavors of roasted malts add distinct character. The alcohol strength of these beers can often be deceiving to the senses. The intensity of malt character can be rich, creamy, and sweet with intensities ranging from medium to high. Very little or no diacetyl is perceived. Herbs and spices are sometimes used to delicately flavor these strong ales. Low levels of phenolic spiciness from yeast byproducts may also be perceived. Chill haze is allowable at cold temperatures.",
+        "ibuMin": "20",
+        "ibuMax": "50",
+        "abvMin": "7",
+        "abvMax": "11",
+        "srmMin": "9",
+        "srmMax": "35",
+        "ogMin": "1.064",
+        "fgMin": "1.012",
+        "fgMax": "1.024",
+        "createDate": "2012-03-21 20:06:46",
+        "updateDate": "2015-04-07 15:32:23"
+      }
+    },
+    {
+      "id": "WRAH2n",
+      "name": "Oscillate Wildly Blueberry Wild",
+      "nameDisplay": "Oscillate Wildly Blueberry Wild",
+      "description": "We hope you can learn to love this big, bold, funky Brett beer, which spent well over a year in oak barrels.  Assemble the ways, for if it’s not love, then it’s this blueberry bomb that will bring us together.  If it seems a little strange, well…that’s because it is.  Oscillate Wildly was conceived to rebuke the beer those macros constantly brew, which says nothing to us about our lives.  Message received, loud and clear.",
+      "abv": "10",
+      "ibu": "16",
+      "availableId": 2,
+      "styleId": 39,
+      "isOrganic": "N",
+      "labels": {
+        "icon": "https://s3.amazonaws.com/brewerydbapi/beer/WRAH2n/upload_Gjw0CJ-icon.png",
+        "medium": "https://s3.amazonaws.com/brewerydbapi/beer/WRAH2n/upload_Gjw0CJ-medium.png",
+        "large": "https://s3.amazonaws.com/brewerydbapi/beer/WRAH2n/upload_Gjw0CJ-large.png"
+      },
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2015-02-05 13:38:10",
+      "updateDate": "2015-12-17 22:04:10",
+      "available": {
+        "id": 2,
+        "name": "Limited",
+        "description": "Limited availability."
+      },
+      "style": {
+        "id": 39,
+        "categoryId": 11,
+        "category": {
+          "id": 11,
+          "name": "Hybrid/mixed Beer",
+          "createDate": "2012-03-21 20:06:46"
+        },
+        "name": "Brett Beer",
+        "shortName": "Brett",
+        "description": "Brett Beers are any range of color and may take on the color of added fruits or other ingredients. Chill haze, bacteria and yeast-induced haze are allowable at low to medium levels at any temperature. Moderate to intense yet balanced fruity-ester aromas are evident. In darker versions, roasted malt, caramel-like and chocolate-like aromas are subtly present. Diacetyl and DMS aromas should not be perceived. Hop aroma is evident over a full range from low to high. In darker versions, roasted malt, caramel-like and chocolate-like flavors are subtly present. Fruited versions will exhibit fruit flavors in harmonious balance with other characters. Hop flavor is evident over a full range from low to high. Hop bitterness is evident over a full range from low to high. The evolution of natural acidity develops balanced complexity. Horsey, goaty, leathery, phenolic and light to moderate and/or fruity acidic character evolved from Brettanomyces organisms may be evident, not dominant and in balance with other character. Cultured yeast strains may be used in the fermentation. Beers in this style should not use bacteria or exhibit bacteria-derived characters. Moderate to intense yet balanced fruity-ester flavors are evident. Diacetyl and DMS flavors should not be perceived. Wood vessels may be used during the fermentation and aging process, but wood-derived flavors such as vanillin must not be present. Residual flavors that come from liquids previously aged in a barrel such as bourbon or sherry should not be present. Body is evident over a full range from low to high. For purposes of competition entries exhibiting wood-derived characters or characters of liquids previously aged in wood would more appropriately be entered in other Wood-Aged Beer categories. Wood- and barrel-aged sour ales should not be entered here and are classified elsewhere.",
+        "createDate": "2012-03-21 20:06:46",
+        "updateDate": "2015-04-07 17:04:16"
+      }
+    },
+    {
+      "id": "y3wvnV",
+      "name": "Winter Warmer",
+      "nameDisplay": "Winter Warmer",
+      "description": "Only available in a very limited run of 750ml celebration bottles and select draft accounts. It is a beautiful dark dopplebock brewed with six different malts and three types of hops plus the addition of brown sugar. At 10%ABV makes this brew the biggest beer to come out of Covington Brewhouse to date. It will definitely warm you up!",
+      "abv": "10",
+      "ibu": "16",
+      "srmId": 19,
+      "styleId": 90,
+      "isOrganic": "N",
+      "status": "verified",
+      "statusDisplay": "Verified",
+      "createDate": "2015-04-20 17:33:08",
+      "updateDate": "2015-04-20 17:33:08",
+      "srm": {
+        "id": 19,
+        "name": "19",
+        "hex": "A13700"
+      },
+      "style": {
+        "id": 90,
+        "categoryId": 7,
+        "category": {
+          "id": 7,
+          "name": "European-germanic Lager",
+          "createDate": "2012-03-21 20:06:46"
+        },
+        "name": "German-Style Doppelbock",
+        "shortName": "Doppelbock",
+        "description": "Malty sweetness is dominant but should not be cloying. Malt character is more reminiscent of fresh and lightly toasted Munich- style malt, more so than caramel or toffee malt character. Some elements of caramel and toffee can be evident and contribute to complexity, but the predominant malt character is an expression of toasted barley malt. Doppelbocks are full bodied and deep amber to dark brown in color. Astringency from roast malts is absent. Alcoholic strength is high, and hop rates increase with gravity. Hop bitterness and flavor should be low and hop aroma absent. Fruity esters are commonly perceived but at low to moderate levels. Diacetyl should be absent",
+        "ibuMin": "17",
+        "ibuMax": "27",
+        "abvMin": "6.5",
+        "abvMax": "8",
+        "srmMin": "12",
+        "srmMax": "30",
+        "ogMin": "1.074",
+        "fgMin": "1.014",
+        "fgMax": "1.02",
+        "createDate": "2012-03-21 20:06:46",
+        "updateDate": "2015-04-07 15:39:08"
+      }
+    }
+  ],
+  "status": "success"
+}

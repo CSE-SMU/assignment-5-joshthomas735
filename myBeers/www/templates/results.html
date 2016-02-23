@@ -1,0 +1,12 @@
+<ion-view view-title="Results">
+  <ion-content>
+    <h1>Results</h1>
+    <ul class="list">
+    	<li class="item item-icon-right item-thumbnail-left" ng-repeat="item in results.data" ng-click="viewDetail(item.id)">
+			<img src={{item.labels.medium}}>
+    		{{item.name}}
+			<i class="icon ion-chevron-right"></i>
+    	</li>
+    </ul>
+  </ion-content>
+</ion-view>
