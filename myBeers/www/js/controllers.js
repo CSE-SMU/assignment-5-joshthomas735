@@ -2,13 +2,6 @@ angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
-  // With the new view caching in Ionic, Controllers are only called
-  // when they are recreated or on app start, instead of every page change.
-  // To listen for when this page is active (for example, to refresh data),
-  // listen for the $ionicView.enter event:
-  //$scope.$on('$ionicView.enter', function(e) {
-  //});
-
 })
 
 .controller('HomeCtrl', function($scope, $http, $state, beerResults) {
@@ -20,7 +13,7 @@ angular.module('starter.controllers', [])
   $scope.search = function() {
 
     var data = {
-      key: '6e3bdbd495156ed013e780c3d4dfb15c',
+      // key: '6e3bdbd495156ed013e780c3d4dfb15c',
       // isOrganic: $scope.isOrganic
     };
 
@@ -48,6 +41,7 @@ angular.module('starter.controllers', [])
       params: data
     }).then(function successCallback(response) {
       beerResults.data = response.data;
+      console.log(beerResults.data);
       $state.go('app.results',{});
     }, function errorCallback(response) {
       // called asynchronously if an error occurs
@@ -65,9 +59,6 @@ angular.module('starter.controllers', [])
   }
 })
 
-
-
-
 .controller('ResultsCtrl', function($scope, $state, beerResults){
 
   $scope.results = beerResults.data;
@@ -76,37 +67,25 @@ angular.module('starter.controllers', [])
     $state.go('app.details',{id:id});
   }
 
-
 })
 
 .controller('DetailsCtrl', function($scope, $http, $stateParams, beerResults){
-  // $scope.info = {
-  //   data: {
-  //     labels: {
-  //       "medium": 'http://www.beernbratsrun.com/wp-content/uploads/2015/08/fav-icon.jpg'
-  //     },
-  //     name: "Sample Beer", 
-  //     abv: "6.2",
-  //     ibuMax: "70",
-  //     ibuMin: "50",
-  //     description: "blah blah blah blahb blah beer",
-  //     isOrganic: 'N'
-  //   }
-  // }
+
   console.log($stateParams);
 
   id = $stateParams.id;
-  $scope.info = beerResults.data;
+  $scope.beerInfo = beerResults.data;
 
-  var index = 0;
-  // while(true){
-  //   if ($scope.info[index].id === id) {
-  //     break;
-  //   };
-  //   index++;
-  // }
+  var index = 0; 
+  while(true){
+    if ($scope.beerInfo.data[index].id == id) {
+      break;
+    };
+    index++;
+  }
 
-  $scope.info = beerResults.data[index];
+  $scope.beerInfo = beerResults.data.data[index];
+  console.log($scope.beerInfo);
 
 })
 

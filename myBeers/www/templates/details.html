@@ -1,14 +1,14 @@
 <ion-view view-title="Beer Details">
-  <ion-content>
-    <h1>{{info.name}}</h1>
+  <ion-content class="padding">
+    <h1>{{beerInfo.name}}</h1>
     <div class="item item-image">
-		<img src={{info.labels.medium}}>
+		<img src={{beerInfo.labels.medium}}>
 	</div>
     <h3>Description</h3>
-    <p>{{info.description}}</p>
+    <p>{{beerInfo.description}}</p>
     <h3>ABV</h3>
-    <p>{{info.abv}}</p>
+    <p>{{beerInfo.abv}}</p>
     <h3>IBU</h3>
-    <p>{{info.ibuMin}}-{{info.ibuMax}}</p>
+    <p>{{beerInfo.ibuMin}}-{{beerInfo.ibuMax}}</p>
   </ion-content>
 </ion-view>
