@@ -5,15 +5,11 @@ angular.module('starter.controllers', [])
 })
 
 .controller('HomeCtrl', function($scope, $http, $state, beerResults) {
-  $scope.form = {
-  };
+  $scope.form = {};
 
   $scope.search = function() {
 
-    var data = {
-      // key: '6e3bdbd495156ed013e780c3d4dfb15c',
-      // isOrganic: $scope.isOrganic
-    };
+    var data = {};
 
     if ($scope.form.beerName) {
       data.name = $scope.form.beerName;

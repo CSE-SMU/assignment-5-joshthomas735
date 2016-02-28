@@ -5,12 +5,12 @@
 		<img src={{beerInfo.labels.medium}}>
 	</div>
     <h3>Description</h3>
-    <p>{{beerInfo.description}}</p>
+    <p>{{beerInfo.description ? beerInfo.description : "Not Available"}}</p>
     <h3>Year</h3>
     <p>{{beerInfo.year ? beerInfo.year : "Not Available"}}</p>
     <h3>ABV</h3>
-    <p>{{beerInfo.abv}}</p>
+    <p>{{beerInfo.abv ? beerInfo.abv : "Not Available"}}</p>
     <h3>IBU</h3>
-    <p>{{beerInfo.ibu}}</p>
+    <p>{{beerInfo.ibu ? beerInfo.ibu : "Not Available"}}</p>
   </ion-content>
 </ion-view>
