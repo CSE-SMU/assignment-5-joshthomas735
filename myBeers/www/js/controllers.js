@@ -6,8 +6,6 @@ angular.module('starter.controllers', [])
 
 .controller('HomeCtrl', function($scope, $http, $state, beerResults) {
   $scope.form = {
-    abvVal: 6,
-    ibuVal: 20
   };
 
   $scope.search = function() {
@@ -20,13 +18,13 @@ angular.module('starter.controllers', [])
     if ($scope.form.beerName) {
       data.name = $scope.form.beerName;
     };
-    if ($scope.form.foodPairings) {
-      data.foodPairings = $scope.form.foodPairings;
+    if ($scope.form.year) {
+      data.year = $scope.form.year;
     };
-    if ($scope.form.abvVal) {
+    if ($scope.form.abvVal && $scope.form.abvToggle) {
       data.abv = $scope.form.abvVal;
     };
-    if ($scope.form.ibuVal) {
+    if ($scope.form.ibuVal && $scope.form.ibuToggle) {
       data.ibu = $scope.form.ibuVal;
     };
     if ($scope.form.isOrganic) {
